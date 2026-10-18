@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp"
+    android:background="#F1F5F9">
+
+    <TextView
+        android:id="@+id/textCourseCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEG2505"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#475569" />
+
+    <TextView
+        android:id="@+id/textCourseTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introduction to Software Engineering"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#0F172A"
+        android:paddingTop="4dp" />
+
+    <TextView
+        android:id="@+id/textCourseDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Learn software design and development."
+        android:textSize="14sp"
+        android:textColor="#334155"
+        android:paddingTop="4dp" />
+
+</LinearLayout>
